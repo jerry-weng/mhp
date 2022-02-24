@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "listen": 9000,
+    "proxy": [
+        {
+            "prefix": "/",
+            "root": "dist"
+        },
+        {
+            "prefix": "/api/",
+            "upstream": "http://127.0.0.1:3000/api/"
+        }
+    ]
+}
