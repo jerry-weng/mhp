@@ -8,6 +8,7 @@ import (
 type ProxyItem struct {
 	Prefix   string `json:"prefix"`
 	Root     string `json:"root,omitempty"`
+	Fallback string `json:"fallback,omitempty"`
 	Upstream string `json:"upstream,omitempty"`
 }
 

@@ -1,10 +1,11 @@
 {
-    "version": 1,
+    "version": 2,
     "listen": 9000,
     "proxy": [
         {
             "prefix": "/",
-            "root": "dist"
+            "root": "dist",
+            "fallback": "index.html"
         },
         {
             "prefix": "/api/",

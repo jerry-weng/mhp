@@ -24,7 +24,7 @@ func init() {
 	flag.BoolVar(&opt.Version, "version", false, "show current version")
 }
 
-const VERSION = "0.1"
+const VERSION = "0.2"
 
 func main() {
 	flag.Parse()
